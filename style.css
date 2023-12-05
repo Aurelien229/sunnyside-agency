@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.body {
+  max-width: 1440px; }
+
+.part1 {
+  background-image: url(assets/images/photos/image-header.jpg);
+  color: white;
+  letter-spacing: 3px;
+  background-size: cover;
+  width: 1440px;
+  height: 800px; }
+  .part1__top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 40px;
+    padding-top: 56px;
+    padding-right: 56px; }
+  .part1__title {
+    font-family: "Fraunces", serif;
+    text-align: center;
+    padding-top: 69px;
+    font-size: 70px; }
+
+.part2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 1440px; }
+  .part2__one {
+    grid-area: 1 / 1 / 2 / 2;
+    max-height: 600px; }
+  .part2__two {
+    background-image: url(assets/images/photos/image-transform.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: 1 / 2 / 2 / 3;
+    max-height: 600px; }
+  .part2__three {
+    background-image: url(assets/images/photos/image-stand-out.jpg);
+    grid-area: 2 / 1 / 3 / 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 600px; }
+  .part2__four {
+    grid-area: 2 / 2 / 3 / 3;
+    max-height: 600px; }
+  .part2__five {
+    background-image: url(assets/images/photos/image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: 3 / 1 / 4 / 2;
+    height: 600px; }
+  .part2__six {
+    background-image: url(assets/images/photos/image-photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: 3 / 2 / 4 / 3;
+    height: 600px; }
+
+.part3 {
+  height: 770px; }
+  .part3__title {
+    text-align: center; }
+  .part3__box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    gap: 40px;
+    padding: auto; }
+
+.part4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  width: 1440px; }
+  .part4__one {
+    height: auto;
+    width: 360px;
+    grid-area: 1 / 1 / 2 / 2; }
+  .part4__two {
+    height: auto;
+    width: 360px;
+    grid-area: 1 / 2 / 2 / 3; }
+  .part4__three {
+    height: auto;
+    width: 360px;
+    grid-area: 1 / 3 / 2 / 4; }
+  .part4__four {
+    height: auto;
+    width: 360px;
+    grid-area: 1 / 4 / 2 / 5; }
+
+/*# sourceMappingURL=style.css.map */
