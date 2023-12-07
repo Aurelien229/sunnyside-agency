@@ -13,7 +13,7 @@
   color: hsl(0, 0%, 100%);
   letter-spacing: 3px;
   background-size: cover;
-  width: 1440px;
+  width: 100%;
   height: 800px;
 }
 .part1__top {
@@ -26,6 +26,12 @@
   padding-top: 34px;
   padding-right: 48px;
 }
+.part1__top__1:hover {
+  border: 1px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+}
 .part1__title {
   font-family: "Fraunces", serif;
   font-size: 56px;
@@ -35,12 +41,18 @@
   text-align: center;
   padding-top: 105px;
 }
+.part1__arrow {
+  width: 30px;
+  height: 107.48px;
+  padding-top: 96px;
+  padding-left: 705px;
+}
 
 .part2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  max-width: 1440px;
+  width: 100%;
 }
 .part2__one {
   grid-area: 1/1/2/2;
